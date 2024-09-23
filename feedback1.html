@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+    <link rel="stylesheet" href="iprpage2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FEEDBACK FORM</h1>
+
+        <!-- Form Section -->
+        <div class="form-section">
+            
+                <label for="institution-name">Name of the visiting Institution <span class="required">*</span></label>
+                <input type="text" id="institution-name" name="institution-name" value="LDRP Institute of Technology and Research" required>
+                <p class="instruction">Please provide the name of your School / College / University / Institution</p>
+
+                <label for="Student-branch">Website of the institution<span class="required">*</span></label>
+                <input type="text" id="Student-branch" name="Student-branch" required>
+                <p class="instruction">Please provide the Website of the institution</p>
+
+                <label for="visitDate">Date of visit<span class="required">*</span></label>
+                <input type="date" id="visitDate" required>
+
+                <label for="staffName">Name of the in-charge staff member <span class="required">*</span></label>
+                <input type="text" id="staffName" required>
+
+                <label for="staffEmail">Email of in-charge staff member <span class="required">*</span></label>
+                <input type="email" id="staffEmail" required>
+
+                <label for="staffMobile">Mobile number of in-charge staff member <span class="required">*</span></label>
+                <input type="tel" id="staffMobile" pattern="[0-9]{10}" required>
+
+                <label for="totalStudents">Total number of students <span class="required">*</span></label>
+                        <input type="number" id="totalStudents" required>
+
+                        <label for="accompanyingStaff">Number of accompanying staff members <span class="required">*</span></label>
+                        <input type="number" id="accompanyingStaff" required>
+
+                        <label>How did you come to know about IPR? <span class="required">*</span></label>
+                        <input type="checkbox" id="internet" name="source" value="Internet"> From the Internet<br>
+                        <input type="checkbox" id="socialMedia" name="source" value="Social Media"> From Social media<br>
+                        <input type="checkbox" id="friends" name="source" value="Friends"> From friends/colleagues<br>
+                        <input type="checkbox" id="other" name="source" value="Other"> Other
+
+                        <label>IPR Campuses visited during the trip?<span class="required">*</span></label>
+                        <input type="checkbox" id="iprMain" name="campus" value="IPR Main"> IPR main campus<br>
+                        <input type="checkbox" id="fcipt" name="campus" value="FCIPT"> FCIPT
+
+                        <label>How do you rate the introductory talk given to you at IPR ?
+                            <span class="required">*</span></label>
+                        <input type="radio" name="iprRating" value="1"> 1
+                        <input type="radio" name="iprRating" value="2"> 2
+                        <input type="radio" name="iprRating" value="3"> 3
+                        <input type="radio" name="iprRating" value="4"> 4
+                        <input type="radio" name="iprRating" value="5"> 5
+
+                        <label>How do you rate your visit to FCIPT?<span class="required">*</span></label>
+                        <input type="radio" name="fciptRating" value="1"> 1
+                        <input type="radio" name="fciptRating" value="2"> 2
+                        <input type="radio" name="fciptRating" value="3"> 3
+                        <input type="radio" name="fciptRating" value="4"> 4
+                        <input type="radio" name="fciptRating" value="5"> 5
+
+                        <label>How do you rate your visit to IPR Extension Lab<span class="required">*</span></label>
+                        <input type="radio" name="knowledge" value="1"> 1
+                        <input type="radio" name="knowledge" value="2"> 2
+                        <input type="radio" name="knowledge" value="3"> 3
+                        <input type="radio" name="knowledge" value="4"> 4
+                        <input type="radio" name="knowledge" value="5"> 5
+
+                        <label>How do you rate the introductory talk given to you at IPR ?
+                            <span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How do you rate the explanations of the various experiments in the IPR Main campus ?<span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How do you rate the explanations of the various experiments in the FCIPT campus ?<span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How much did you know about plasma and fusion BEFORE coming to IPR ?<span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How much did you know about plasma and fusion AFTER coming to IPR ?
+                                <span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How do you rate the technical contents of the posters and books on plasma that were provided to you?<span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+    
+                            <label>How do you rate the ease of understanding of the contents of the posters and books on plasma that were provided to you?<span class="required">*</span></label>
+                            <input type="radio" name="fciptRating" value="1"> 1
+                            <input type="radio" name="fciptRating" value="2"> 2
+                            <input type="radio" name="fciptRating" value="3"> 3
+                            <input type="radio" name="fciptRating" value="4"> 4
+                            <input type="radio" name="fciptRating" value="5"> 5
+
+                            <label>What did you and the students rate as BEST about their IPR visit?<span class="required">*</span></label>
+            <input type="text" id="best" required>
+
+            <label>What did you and the students rate as WORST about their IPR visit? <span class="required">*</span></label>
+            <input type="text" id="worst" required>
+
+            <label>Is there anything more you would have liked to see during your IPR visit?<span class="required">*</span></label>
+            <input type="text" id="suggestions">
+
+            <label for="comments">Comments/suggestions for improving the experience*</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+        </div>
+        <div class="flex justify-between items-center">
+            <button type="button" onclick="window.history.back();"
+                class="back-btn">Back</button>
+            <button type="submit"
+                class="bg-blue-600 text-white px-4 py-2 rounded-md shadow-sm hover:bg-blue-700">Submit</button>
+        </div>
+               
+            </form>
+        </div>
+
+    </div>
+    <script src="validateForm.js"></script>
+</body>
+</html>
+
